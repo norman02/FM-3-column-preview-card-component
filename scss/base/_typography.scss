@@ -1,0 +1,16 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+h2 {
+    color: $heading-color;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: toRem(40);
+    line-height: toRem(48);
+}
+
+p{
+    color: $text-color;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-size: toRem(15);
+    line-height: toRem(25);
+}
