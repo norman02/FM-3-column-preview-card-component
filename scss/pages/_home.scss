@@ -1,10 +1,23 @@
 body {
     background-color: $main-bg-color;
     padding: 23.47vw 6.4vw;
-} 
+
+    @include media-lg {
+        padding: 11.83vw 18vw;
+    }
+}
+
+.home {
+    border-radius: 8px;
+    overflow: hidden;
+
+    @include media-lg {
+        display: flex;
+    }
+}
 
 section {
-    padding: 12.8vw ;
+    padding: toRem(48) ;
 
     h2 {
         margin-bottom: toRem(33);
@@ -14,12 +27,15 @@ section {
 
     p {
         margin-bottom: toRem(31);
+
+        @include media-lg {
+            margin-bottom: toRem(89);
+        }
     }
 }
 
 .sedan {
     background-color: $sedan-color;
-    border-radius: 8px 8px 0 0;
 }
 
 .suv {
@@ -28,5 +44,4 @@ section {
 
 .luxury {
     background-color: $luxury-color;
-    border-radius: 0 0 8px 8px;
 }

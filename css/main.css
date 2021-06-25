@@ -98,8 +98,25 @@ body {
   padding: 23.47vw 6.4vw;
 }
 
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 11.83vw 18vw;
+  }
+}
+
+.home {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .home {
+    display: flex;
+  }
+}
+
 section {
-  padding: 12.8vw;
+  padding: 3rem;
 }
 
 section h2 {
@@ -112,9 +129,14 @@ section p {
   margin-bottom: 1.9375rem;
 }
 
+@media screen and (min-width: 1200px) {
+  section p {
+    margin-bottom: 5.5625rem;
+  }
+}
+
 .sedan {
   background-color: #e38826;
-  border-radius: 8px 8px 0 0;
 }
 
 .suv {
@@ -123,6 +145,5 @@ section p {
 
 .luxury {
   background-color: #004241;
-  border-radius: 0 0 8px 8px;
 }
 /*# sourceMappingURL=main.css.map */
