@@ -70,4 +70,37 @@ p {
 .btn--luxury {
   color: #004241;
 }
+
+body {
+  background-color: #f2f2f2;
+  padding: 23.47vw 6.4vw;
+}
+
+section {
+  padding: 12.8vw;
+}
+
+section h2 {
+  margin-bottom: 2.0625rem;
+  margin-top: 2.1875rem;
+  text-transform: uppercase;
+}
+
+section p {
+  margin-bottom: 1.9375rem;
+}
+
+.sedan {
+  background-color: #e38826;
+  border-radius: 8px 8px 0 0;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+  border-radius: 0 0 8px 8px;
+}
 /*# sourceMappingURL=main.css.map */

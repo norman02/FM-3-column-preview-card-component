@@ -1,0 +1,32 @@
+body {
+    background-color: $main-bg-color;
+    padding: 23.47vw 6.4vw;
+} 
+
+section {
+    padding: 12.8vw ;
+
+    h2 {
+        margin-bottom: toRem(33);
+        margin-top: toRem(35);
+        text-transform: uppercase;
+    }
+
+    p {
+        margin-bottom: toRem(31);
+    }
+}
+
+.sedan {
+    background-color: $sedan-color;
+    border-radius: 8px 8px 0 0;
+}
+
+.suv {
+    background-color: $suv-color;
+}
+
+.luxury {
+    background-color: $luxury-color;
+    border-radius: 0 0 8px 8px;
+}
