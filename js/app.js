@@ -24,7 +24,7 @@ const renderHome = () => {
     home.innerHTML = cars.map(car => {
         return (
             `<section class="${car.id}">
-            <img src="${car.imagePath}">
+            <img src="${car.imagePath}" alt="">
             <h2>${car.type}</h2>
             <p>${car.description}<p>
             <a href="#" class="btn btn--${car.id}">Learn More</a>
