@@ -1,0 +1,19 @@
+.btn {
+    background-color: $button-bg-color;
+    border-radius: 25px;
+    color: black;
+    display: inline-block;
+    padding: toRem(11) toRem(31.5) toRem(18) toRem(31.5);
+
+    &--sedan {
+        color: $sedan-color;
+    }
+
+    &--suv {
+        color: $suv-color;
+    }
+
+    &--luxury {
+        color: $luxury-color;
+    }
+}

@@ -1,9 +1,18 @@
+
+// primary colors
 $bright-orange: hsl(31, 77%, 52%);
 $dark-cyan: hsl(184, 100%, 22%);
 $very-dark-cyan: hsl(179, 100%, 13%); 
-
+// mono colors
 $transparent-white: hsla(0, 0%, 100%, 0.75);
 $very-dark-grey: hsl(0, 0%, 95%);
-
+//text colors
 $heading-color: $very-dark-grey;
 $text-color: $transparent-white;
+//bg-colors
+$button-bg-color: $very-dark-grey;
+
+//variable colors
+$sedan-color: $bright-orange;
+$suv-color:$dark-cyan;
+$luxury-color: $very-dark-cyan;
