@@ -53,22 +53,44 @@ p {
 
 .btn {
   background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
   border-radius: 25px;
   color: black;
   display: inline-block;
   padding: 0.6875rem 1.96875rem 1.125rem 1.96875rem;
+  transition: 0.8s;
+}
+
+.btn:active {
+  opacity: 0.80;
+  transform: scale(0.95);
 }
 
 .btn--sedan {
   color: #e38826;
 }
 
+.btn--sedan:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
 .btn--suv {
   color: #006970;
 }
 
+.btn--suv:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
 .btn--luxury {
   color: #004241;
+}
+
+.btn--luxury:hover {
+  background-color: transparent;
+  color: #f2f2f2;
 }
 
 body {

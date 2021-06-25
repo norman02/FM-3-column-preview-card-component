@@ -1,19 +1,41 @@
 .btn {
     background-color: $button-bg-color;
+    border: 2px solid $button-bg-color;
     border-radius: 25px;
     color: black;
     display: inline-block;
     padding: toRem(11) toRem(31.5) toRem(18) toRem(31.5);
+    transition: 0.8s;
+
+    &:active {
+        opacity: 0.80;
+        transform: scale(0.95);
+    }
 
     &--sedan {
         color: $sedan-color;
+        
+        &:hover {
+            background-color: transparent;
+            color: $button-bg-color;
+        }
     }
 
     &--suv {
         color: $suv-color;
+
+        &:hover {
+            background-color: transparent;
+            color: $button-bg-color;
+        }
     }
 
     &--luxury {
         color: $luxury-color;
+
+        &:hover {
+            background-color: transparent;
+            color: $button-bg-color;
+        }
     }
 }
