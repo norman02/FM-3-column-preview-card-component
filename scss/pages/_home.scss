@@ -17,7 +17,7 @@ body {
 }
 
 section {
-    padding: toRem(48) ;
+    padding: toRem(48);
 
     h2 {
         margin-bottom: toRem(33);
@@ -25,7 +25,7 @@ section {
         text-transform: uppercase;
     }
 
-    p {
+    .desc {
         margin-bottom: toRem(31);
 
         @include media-lg {

@@ -26,7 +26,7 @@ const renderHome = () => {
             `<section class="${car.id}">
             <img src="${car.imagePath}" alt="">
             <h2>${car.type}</h2>
-            <p>${car.description}<p>
+            <p class="desc">${car.description}<p>
             <a href="#" class="btn btn--${car.id}">Learn More</a>
             </section>`
         )
